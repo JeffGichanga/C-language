@@ -1,0 +1,28 @@
+/*Program to calculate the area of a rectangle*/
+#include <stdio.h>
+int area, length, width;
+int area (int l, int w);
+main()
+{
+
+/*Prompt the user for the length of the rectangle*/
+printf("Enter the length of the rectangle:");
+scanf("%d", length);
+
+/*Prompt the user for the width of the rectangle*/
+printf("Enter the width of the rectangle:");
+scanf("%d", width);
+
+/*Formula (calculating) the area of the rectangle*/
+area = product (length, width);
+printf("%d times %d = %d \n," length, width, area);
+
+return 0;
+}
+
+
+/*Function prototype for area*/
+int area (int l, int w)
+{
+return (l*w);
+}
