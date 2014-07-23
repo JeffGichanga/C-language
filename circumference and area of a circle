@@ -1,0 +1,28 @@
+/*Calculating the area and circumference of a circle*/
+#Include <stdio.h>
+int area, circumference, radius. PI;
+int area (int x, int y);
+int circumference (int p, int q);
+
+/*Prompt the user for the radius*/
+printf("Enter the radius of the circle:");
+scanf("%d", radius);
+
+/*Formula for calculating and displaying the area and the circumference*/
+area = product(PI, radius);
+circumference = product( PI, radius);
+printf("%d times %d = %d \n," PI, radius, area);
+printf(("%d times %d = %d \n," PI, radius, circumference);
+
+return 0;
+}
+
+/*Function prototype*/
+int area (int x, int y)
+{
+return (PI * r * r);
+}
+int circumference (int p, int q)
+{
+return (2 * PI * r)
+}
